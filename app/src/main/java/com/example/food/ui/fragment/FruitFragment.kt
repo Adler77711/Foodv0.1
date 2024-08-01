@@ -42,7 +42,8 @@ class FruitFragment : Fragment() {
     private var ivSearch: ImageView? = null //搜索图标
     private var btnAdd: FloatingActionButton? = null
     private val state = arrayOf("0", "1", "2", "3", "4", "5")
-    private val title = arrayOf("人气", "主食", "靓汤", "小炒", "炸鸡", "轻食")
+    private val title = arrayOf("人气", "主食", "靓汤", "小炒", "炸鸡")
+//    private val title = arrayOf("人气", "主食", "靓汤", "小炒", "炸鸡", "轻食")
     private var typeId = "0"
     private var mfruit: List<Fruit>? = null
 
